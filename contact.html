@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact</title>
+    <meta charset='utf-8'>
+    <meta NAME='Author' CONTENT='Germain Christophe'>
+    <meta NAME='Language' CONTENT='fr'>
+    <META NAME='Copyright' CONTENT='La Florentina'>
+</head>
+
+<body>
+    <form action="/send_contact" method="POST">
+        <fieldset>
+            <legend>Contact</legend>
+            <div>
+                <label for="name">Nom</label>
+                <input type="text" name="name" id="name">
+            </div>
+
+            <div>
+                <label for="firstname">Prénom</label>
+                <input type="text" name="firstname" id="firstname">
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div>
+                <label for="phone">Téléphone</label>
+                <input type="tel" name="phone" id="phone">
+            </div>
+            <hr/>
+            <div>
+                <label for="listcanal">Canal de contact préféré</label>
+                <select id="listcanal" size="1">
+					<option value="1">Email</option>
+					<option value="2">Téléphone</option>
+				</select>
+            </div>
+            <hr/>
+            <div>
+                <label for="message">Message</label>
+                <textarea rows="4" cols="25" id="message"></textarea>
+            </div>
+            <hr/>
+            <div>
+                <button type="submit">Envoyer...</button>
+            </div>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
