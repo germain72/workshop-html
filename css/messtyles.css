@@ -1,0 +1,111 @@
+body {
+    font-family: "trebuchet ms", sans-serif;
+    font-size: 90%;
+    margin-left: 50px;
+}
+
+form {
+    background-color: #FAFAFA;
+    padding: 10px;
+    width: 280px;
+}
+
+fieldset {
+    padding: 0 20px 20px 20px;
+    margin-bottom: 10px;
+    border: 1px solid #DF3F3F;
+}
+
+legend {
+    color: #DF3F3F;
+    font-weight: bold
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+}
+
+label.inline {
+    display: inline;
+    margin-right: 50px;
+}
+
+input,
+textarea,
+select,
+option,
+a {
+    background-color: #FFF3F3;
+}
+
+input,
+textarea,
+select,
+a {
+    padding: 3px;
+    border: 1px solid #F5C5C5;
+    border-radius: 5px;
+    width: 200px;
+    box-shadow: 1px 1px 2px #C0C0C0 inset;
+}
+
+select {
+    margin-top: 10px;
+}
+
+input[type=radio] {
+    background-color: transparent;
+    border: none;
+    width: 10px;
+}
+
+input[type=submit],
+input[type=reset],
+a {
+    width: 100px;
+    margin-left: 5px;
+    box-shadow: 1px 1px 1px #D83F3D;
+    cursor: pointer;
+}
+
+a:link {
+    color: #000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+a:active {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+
+/*
+Css d'un tableau
+*/
+
+table {
+    border: medium solid #D83F3D;
+    width: 50%;
+}
+
+td,
+th {
+    border: thin solid #6495ed;
+    width: 50%;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+}
