@@ -7,6 +7,8 @@
     <meta NAME='Author' CONTENT='Germain Christophe'>
     <meta NAME='Language' CONTENT='fr'>
     <META NAME='Copyright' CONTENT='La Florentina'>
+    <!-- Script CSS de Boostrap 4-->
+    <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Version CSS Init-->
     <style>
         /*
@@ -20,24 +22,46 @@
             /* Couleur de fond */
             font-weight: bold;
             /* caractère en gras */
-            font-size: medium;
+            font-size: large;
             /* Taille de police caractère */
+        }
+        /*
+        Personnalisation de la balise footer
+        */
+        
+        footer {
+            background-color: tomato;
+        }
+        /*
+        définition d'une classe de style qui se nomme maclasse
+        */
+        
+        .maclasse {
+            color: violet;
+        }
+        /*
+        Définition d'un id qui se nomme monid
+        */
+        
+        #monid {
+            color: blue;
         }
     </style>
 </head>
 
 <body>
-    <header>
+    <header id="monid">
         <h1>La Florentina</h1>
     </header>
 
     <nav>
-        <h2>Pizzéria</h2>
+        <h2 class="maclasse">Pizzéria</h2>
         <ul>
             <li><a href="index.html">Accueil</a></li>
             <li><a href="liste_pizzas.html">Nos pizzas</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="tableau.html">Tableau TP</a></li>
+            <li><a href="boostrap01.html">Boostrap</a></li>
         </ul>
     </nav>
 
@@ -58,6 +82,9 @@
             <a href="contact.html">Nous contacter</a>
         </div>
     </footer>
+    <!-- Script JS de Boostrap 4-->
+    <script src="js/bootstrap.js"></script>
+
 </body>
 
 </html>
