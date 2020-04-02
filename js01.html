@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exemple 01 pour l'utilisation des scripts </title>
+    <meta charset='utf-8'>
+    <meta NAME='Author' CONTENT='Germain Christophe'>
+    <meta NAME='Language' CONTENT='fr'>
+    <META NAME='Copyright' CONTENT='CGE and Co'>
+    <!-- Script CSS de Boostrap 4-->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style>
+        .lead {
+            font-size: 1.25rem;
+            font-weight: 300;
+        }
+    </style>
+    <script>
+        function info() {
+            alert("Ceci est un cours JS de base.");
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container-fluid p-4">
+        <span class="badge badge-secondary text-uppercase lead">Voici l'arborescence des objets à 
+            votre disposition pour développer en JS.</span>
+        <dl>
+            <dt>Objet de la fenêtre : window</dt>
+            <dd>c'est l'objet racine</dd>
+
+            <dt>Puis l'objet : document</dt>
+            <dd>C'est l'objet qui permet d'accés aux balises, aux id etc contenu dans la page</dd>
+            <span class="badge badge-primary text-lowercase lead">
+                Exemple : document.getElementById('demo')
+            </span>
+
+        </dl>
+
+
+
+        <span class='btn btn-warning' onclick="info();">Info</span>
+        <br/>
+        <br/>
+
+        <p id="demo" onmouseover="document.getElementById('demo').style.fontSize='10px'">
+            Grâce au JS on peut changer le style de cette balise.</p>
+
+        <br/><br/>
+        <button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">
+            Cliquer :)</button>
+
+    </div>
+</body>
+
+</html>
